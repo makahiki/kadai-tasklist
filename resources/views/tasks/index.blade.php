@@ -3,7 +3,7 @@
 @section('content')
 
     @if (Auth::check() && count($tasks) > 0)
-        <h1>メッセージ一覧</h1>
+        <h1>タスク一覧</h1>
         <table class="table table-striped">
             <thead>
                 <tr>
